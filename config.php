@@ -5,6 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
+$dbname = "Concesionario";
 
 
 // Crear conexión
