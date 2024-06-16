@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#login-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 500px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover;
+}
+
+.car-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.car-logo {
+    margin: 20px;
+    flex: 1 1 150px;
+    max-width: 150px;
+}
+
+.car-logo img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons a,
+.form-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-buttons a:hover,
+.form-buttons button:hover {
+    background-color: #555;
+}
